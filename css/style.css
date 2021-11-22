@@ -1,0 +1,102 @@
+* { 
+    font-family: iran_sans_light ;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    outline: none ;
+    border: none ;
+}
+.body {
+    width: 100 ;
+    min-height: 100vh ;
+    background: #fff ;
+}
+.container {
+    margin: auto ;
+    width:1200px ;
+    max-width: 100% ;
+}
+a {
+    text-decoration: none ;
+}
+ul {
+    list-style: none ;
+}
+header {
+    display: flex ;
+    align-items: center ;
+    padding: 30px 10px ;
+    }
+    header span {
+        color: #72c54c ;
+        font-size: 2 rem ;
+}
+    header h4 {
+        margin-right: 80px ;
+    }
+    header ul {
+        display: flex ;
+        align-items: center;
+        justify-content: center ;
+}
+header ul li {
+    margin-top: 50px ;
+    margin-right: 50px ;
+}
+header ul li a {
+    color: #5f5d5d ;
+
+}
+.banner {
+    height: 500 px ;
+    width : 100% ;
+    display: flex ;
+    align-items: center ;
+   
+}
+.text {
+    margin-bottom: 50px ;
+    max-width: 500px ;
+
+}
+.banner h1 {
+    font-size: 4rem ;
+    margin-bottom: 30px ;
+    color: orangered ;
+}
+.banner p {
+    max-width: 500px;
+    font-size: 1.5rem;
+}
+.btn {
+    margin-top: 5px;
+    display: inline-block ;
+    padding: 20px 30px ;
+    border-radius: 25px ;
+    background: orangered ;
+    color: #fff ;
+}
+.image img {
+    width: 100% ;
+}
+.sociallink {
+    transform: translateY(20px) translateX(30px)
+
+}
+.sociallink i {
+    font-size : 35px ;
+    border: 2px solid #4475e2 ;
+    width: 50px;
+    height: 50px ;
+    text-align: center ;
+    padding: 10px ;
+    cursor: pointer;
+    transition: all .3s ;
+    border-radius: 50% ;
+    margin-right: 5px ;
+}
+.sociallink i:hover {
+    background: #4475e2 ;
+    color: #fff ;
+   
+}
